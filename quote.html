@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quote</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: center;	
+			-ms-align-items: center;
+			align-items: center;
+			height: 100vh;
+		}
+		.box{
+			width: 30%;
+			background-color: #000;
+			color: #fff;
+			border-radius: 5px;
+			height: 80%;
+			padding: 2%;
+		}
+		.box blockquote{
+			font-family: 'Times New Roman', serif;
+			/*font-style: italic;*/
+			font-size: 2.1em;
+		}
+		.box p{
+			text-align: right;
+			font-family: 'Arial', serif;
+			padding-top: 20px;
+			/*font-size: 0.8em;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab modi eum. Velit beatae, quae dignissimos non reiciendis assumenda autem natus nesciunt repellendus, explicabo temporibus doloremque ea quisquam ex. Ipsa?</blockquote>
+		<p>- Anon Von Nuit</p>
+	</div>
+</body>
+</html>
